@@ -61,6 +61,13 @@ body h1 {
 }
 
 @media screen and (max-width: 767px){
+  .ttt-visibility-control {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 3;
+  }
+
   .ttt-control-panel {
     position: absolute;
     top: 0;
@@ -81,6 +88,10 @@ body h1 {
 }
 
 @media screen and (min-width: 768px){
+  .ttt-visibility-control {
+    display: none;
+  }
+
   .ttt-control-panel {
     float: left;
     width: 25%;
