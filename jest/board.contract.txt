@@ -1,0 +1,13 @@
+You should create a file named 'board.js' inside the 'lib' folder.
+
+'board.js' should have a method 'boardFactory'.
+
+The method 'boardFactory' should return an empty board object.
+
+The board object should have a 'getMarkAt(position)' method, which returns 'X', 'O' or null according to the value at the position, which ranges from 1 to 9, inclusive. An empty board should return null for any given position.
+
+The board object should have a 'setMarkAt(position, mark)' method, which takes an 'X' or 'O' as a mark and it should return true or false, if this method has changed the board or not (true if change, false if unchanged).
+
+The board object should have a 'hasWinner()' method, which takes no arguments, and it should return 'X' or 'O' if there is a winner or null if there is no winner.
+
+
