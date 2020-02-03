@@ -1,0 +1,22 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "A JavaScript practice which consists of creating a toy application of Tic-Tac-Toe.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest --no-cache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lhscar56/tic-tac-toe.git"
+  },
+  "author": "Frederico Miranda, Gastón Costa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lhscar56/tic-tac-toe/issues"
+  },
+  "homepage": "https://github.com/lhscar56/tic-tac-toe#readme"
+}
