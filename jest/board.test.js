@@ -1,4 +1,4 @@
-const { boardFactory } = require('../lib/board.js');
+import boardFactory from '../lib/board';
 
 test('expects boardFactory method to exist on module', () => {
   expect(typeof boardFactory).toBe('function');
@@ -20,10 +20,10 @@ test('expects a new board to be fully empty', () => {
 
 test('expects the impossibility of playing in an occupied position', () => {
   const board = boardFactory();
-  
+
   let mark = 'X';
   for (let i = 1; i <= 9; i += 1) {
-    expect(board.setMarkAt(i, mark)).toBe(true);    
+    expect(board.setMarkAt(i, mark)).toBe(true);
     expect(board.setMarkAt(i, mark)).toBe(false);
     mark = mark === 'X' ? 'O' : 'X';
   }
@@ -32,7 +32,7 @@ test('expects the impossibility of playing in an occupied position', () => {
 test('expects a played board to detect winners', () => {
   const boardA = boardFactory();
   expect(boardA.hasWinner()).toBe(null);
-  
+
   boardA.setMarkAt(1, 'X');
   boardA.setMarkAt(4, 'O');
   boardA.setMarkAt(2, 'X');

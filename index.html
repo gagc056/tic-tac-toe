@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8" />
+  <title>JavaScript - Tic Tac Toe</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="index.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="tic-tac-toe">
+    <div class="ttt-control-panel">
+      <h1>Tic-Tac-Toe</h1>
+      <label>
+        Player #1:&nbsp;<input type="text" name="ttt-player1-name" size="12" />
+      </label>
+      <label>
+        Player #2:&nbsp;<input type="text" name="ttt-player2-name" size="12" />
+      </label>
+      <button class="ttt-new-game">NEW GAME</button>
+    </div>
+    <div class="ttt-board">
+      <canvas></canvas>
+      <div class="ttt-status-bar"></div>
+    </div>
+    <div class="ttt-visibility-control">
+      <button class="ttt-toggle-control-panel">Hide Controls</button>
+    </div>
+  </div>
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>
