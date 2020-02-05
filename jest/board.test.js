@@ -1,4 +1,4 @@
-import  boardFactory  from '../lib/board';
+import boardFactory from '../lib/board';
 
 test('expects boardFactory method to exist on module', () => {
   expect(typeof boardFactory).toBe('function');
