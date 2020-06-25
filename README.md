@@ -32,8 +32,10 @@ If all of these commands run successfully, open the address <a href="http://loca
 [Gastón Costa](https://github.com/lhscar56)
 
 
-handshake Contributing Contributions, issues and feature requests are welcome!
+🤝 Contributing
+Contributions, issues and feature requests are welcome!
 
 Feel free to check the issues page.
 
-Show your support Give a star if you like this project!
+Show your support
+Give a ⭐️ if you like this project!
