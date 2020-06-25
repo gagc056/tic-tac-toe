@@ -18,9 +18,22 @@ node simple-server.js
 
 If all of these commands run successfully, open the address <a href="http://localhost:5000">http://localhost:5000</a> on your web browser, to see the application running.
 
+## STACK
+- Node.js
+- Javascript
+- HTML5/CSS3
+- Jest
+
+
 ## AUTHORS
 
 [Frederico Miranda](https://github.com/frederico-miranda)
 
 [Gastón Costa](https://github.com/lhscar56)
 
+
+handshake Contributing Contributions, issues and feature requests are welcome!
+
+Feel free to check the issues page.
+
+Show your support Give a star if you like this project!
